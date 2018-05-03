@@ -1,4 +1,4 @@
---libasm by Duxz
+--libasmgen by Duxz
 --v0.1
 --in script lua assembly code generator
 
