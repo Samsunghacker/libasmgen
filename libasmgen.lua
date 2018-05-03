@@ -2,26 +2,26 @@
 --v0.1
 --in script lua assembly code generator
 
-asmcode 				= {}
+asmcode 			= {}
 
-asm 					= {}
+asm 				= {}
 
-asm.x86 				= false
+asm.x86 			= false
 asm.arch.aarch64 		= false
 asm.arch.arm 			= false
 asm.arch.mips 			= false
 asm.arch.x64 			= false
 asm.arch.ppc 			= false
 asm.arch.ppc64 			= false
-asm.arch.SixFiveOOne	= false
+asm.arch.SixFiveOOne		= false
 
 
-PREFIX 					= {}
+PREFIX 				= {}
 
 PREFIX.INFO  			= "[?]"
 PREFIX.ERROR 			= "[!]"
-PREFIX.DEF				= "[+]"
-PREFIX.UNK	 			= "[/]"
+PREFIX.DEF			= "[+]"
+PREFIX.UNK	 		= "[/]"
 
 
 function asm.begin(custom)
