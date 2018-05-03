@@ -6,7 +6,7 @@ asmcode 			= {}
 
 asm 				= {}
 
-asm.x86 			= false
+asm.arch.x86 			= false
 asm.arch.aarch64 		= false
 asm.arch.arm 			= false
 asm.arch.mips 			= false
