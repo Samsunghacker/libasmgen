@@ -1,7 +1,7 @@
 --libasmgen by Duxz
 --v0.1
 --in script lua assembly code generator
-
+--fyi i need to either start learning how to do stuff in all of those architectures or have people contrib.
 asmcode 			= {}
 
 asm 				= {}
