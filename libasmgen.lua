@@ -13,7 +13,7 @@ asm.arch.mips 			= false
 asm.arch.x64 			= false
 asm.arch.ppc 			= false
 asm.arch.ppc64 			= false
-asm.arch.SixFiveOOne		= false
+asm.arch.SixFiveOTwo		= false
 
 
 PREFIX 				= {}
@@ -59,9 +59,9 @@ function asm.setarch(arch)
 	--elseif arch == "ppc64" then
 	--	asm.arch.ppc64 = true
 	--	print(PREFIX.INFO .. "set architecture to 'ppc64'")
-	--elseif arch == "6501" then
+	--elseif arch == "6502" then
 	--	asm.arch.SixFiveOOne = true
-	--	print(PREFIX.INFO .. "set architecture to '6501'")
+	--	print(PREFIX.INFO .. "set architecture to '6502'")
 	else
 		print(PREFIX.ERROR .. "architecture '" .. arch .. "'is not supported by libasmgen")
 	end
