@@ -24,7 +24,7 @@ PREFIX.DEF			= "[+]"
 PREFIX.UNK	 		= "[/]"
 
 
-function asm.begin(custom)
+function asm.gnuAS.begin(custom)
 	if custom then
 		table.insert(asmcode,custom)
 		table.insert(asmcode,".global _start\n")
@@ -63,7 +63,7 @@ function asm.setarch(arch)
 	--	asm.arch.SixFiveOOne = true
 	--	print(PREFIX.INFO .. "set architecture to '6501'")
 	else
-		print(PREFIX.ERROR .. "architecture '" .. arch .. "'is not supported by libasm")
+		print(PREFIX.ERROR .. "architecture '" .. arch .. "'is not supported by libasmgen")
 	end
 end
 
