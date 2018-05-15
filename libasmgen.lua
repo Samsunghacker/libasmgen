@@ -78,3 +78,7 @@ function asm.desetarch()
 end
 
 return asm,asmcode
+
+function completelyAndUtterlyUseless()
+	print("this function is useless!")
+end
